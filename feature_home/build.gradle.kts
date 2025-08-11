@@ -35,7 +35,6 @@ dependencies {
     implementation(project(":data"))
 
     implementation(libs.hilt.android)
-    testImplementation(libs.junit.jupiter)
     kapt(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.material.icons.extended.android)
@@ -51,5 +50,10 @@ dependencies {
     implementation(libs.androidx.activity.compose)
 
     implementation(libs.coil.compose)
+
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.androidx.core.testing)
 
 }

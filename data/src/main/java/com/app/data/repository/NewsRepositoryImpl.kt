@@ -34,9 +34,7 @@ class NewsRepositoryImpl @Inject constructor(
             articleDao.insertArticles(remoteArticles.map { it.toEntity(dbCategory) })
             
             Result.success(Unit)
-        } catch (e: HttpException) {
-            Result.failure(e)
-        } catch (e: IOException) {
+        } catch (e: Exception) {
             Result.failure(e)
         }
     }

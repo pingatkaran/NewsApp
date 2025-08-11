@@ -27,4 +27,8 @@ dependencies {
     
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
 }
