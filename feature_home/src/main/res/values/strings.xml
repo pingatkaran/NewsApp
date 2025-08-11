@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name_feature">News App</string>
+    <string name="back_button_desc">Back</string>
+    <string name="unknown_author">Unknown Author</string>
+    <string name="no_content_available">No content available.</string>
+    <string name="news_refresh_error">Refresh Error</string>
+    <string name="retry">Retry</string>
+</resources>
